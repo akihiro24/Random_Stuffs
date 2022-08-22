@@ -6,8 +6,11 @@ public class App {
         knight.strength = 10;
         knight.agility = 5;
         knight.intelligence = 0;
-        knight.name = "Chen";
+        knight.name = "Abaddon";
         knight.sayMyName();
+        knight.sayMyStrength();
+        knight.sayMyAgility();
+        knight.sayMyIntelligence();
 
         Character mage = new Character();
 
@@ -16,6 +19,9 @@ public class App {
         mage.intelligence = 10;
         mage.name = "Akasha";
         mage.sayMyName();
+        mage.sayMyStrength();
+        mage.sayMyAgility();
+        mage.sayMyIntelligence();
 
         Character thief = new Character();
 
@@ -24,6 +30,9 @@ public class App {
         thief.intelligence = 0;
         thief.name = "Gondar";
         thief.sayMyName();
+        thief.sayMyStrength();
+        thief.sayMyAgility();
+        thief.sayMyIntelligence();
         
         Character archer = new Character();
         archer.strength = 5;
@@ -31,5 +40,8 @@ public class App {
         archer.intelligence = 5;
         archer.name = "Mirana";
         archer.sayMyName();
+        archer.sayMyStrength();
+        archer.sayMyAgility();
+        archer.sayMyIntelligence();
     }
 }
