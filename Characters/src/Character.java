@@ -1,9 +1,12 @@
 public class Character {
+
+    //Property/Attributes
     int strength;
     int agility;
     int intelligence;
     String name;
 
+    //Character Method
     public void sayMyName() {
         System.out.println("Hello I am " + name);
     }
@@ -13,33 +16,18 @@ public class Character {
     }
 
     public void sayMyAgility() {
-        System.out.println("My agility is " + agility);
+        System.out.println("My Agility is " + agility);
     }
 
     public void sayMyIntelligence() {
-        System.out.println("My intelligence is " + intelligence);
+        System.out.println("My Intelligence is " + intelligence);
     }
 
-    // public class Character {
-    //     int strength;
-    //     int agility;
-    //     int intelligence;
-    //     String name;
-    
-    //     public void sayMyName() {
-    //         System.out.println("Hello I am " + name);
-    //     }
-        
-    //     public void sayMyStrength() {
-    //         System.out.println("My strength is " + strength);
-    //     }
-        
-    //     public Character(int strength, int agility, int intelligence, String name)
-    //     {
-    //         strength = this.strength;
-    //         agility = this.agility;
-    //         intelligence = this.intelligence;
-    //         name = this.name;
-    //     }
-    
+    // Constructor
+    // public Character(int str, int agi, int intel, String characterName) {
+    //     strength = str;
+    //     agility = agi;
+    //     intelligence = intel;
+    //     name = characterName;
+    // }
 }
