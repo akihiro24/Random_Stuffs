@@ -6,8 +6,15 @@ public class App {
 
         //FOR LOOP
         
-        for (int firstnameCount = 5; i != 0; firstnameCount--) {
+        for (int firstnameCount = 5; firstnameCount != 0; firstnameCount--) {
+            
+            //BREAK
+            if (firstnameCount == 4){
+                System.out.println("Tama ka na");
+                break;
+            }
             System.out.println("Railey Kiether");
+            
         }
         
         
