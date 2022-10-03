@@ -2,10 +2,16 @@ public class App {
     
     public static void main(String[] args) throws Exception {
 
+
+
+        //FOR LOOP
+        
         for (int i = 5; i != 0; i--) {
             System.out.println("Railey Kiether");
         }
         
+        
+        //WHILE LOOP
         
         int surnameCount = 5;
         while (surnameCount != 0) {
@@ -13,6 +19,7 @@ public class App {
             surnameCount--;
         }
         
+        //DO WHILE LOOP
         
         int nicknameCount = 5;
          do {
