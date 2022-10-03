@@ -6,7 +6,7 @@ public class App {
 
         //FOR LOOP
         
-        for (int i = 5; i != 0; i--) {
+        for (int firstnameCount = 5; i != 0; firstnameCount--) {
             System.out.println("Railey Kiether");
         }
         
