@@ -5,7 +5,6 @@ public class App {
 
 
         //FOR LOOP
-        
         for (int firstnameCount = 5; firstnameCount != 0; firstnameCount--) {
             
             //BREAK
@@ -17,17 +16,21 @@ public class App {
             
         }
         
-        
         //WHILE LOOP
-        
         int surnameCount = 5;
         while (surnameCount != 0) {
-            System.out.println("Dela Vina");
             surnameCount--;
+            
+        //CONTINUE
+            if (surnameCount == 3) {
+                System.out.println("Una ka na pre");
+                continue;
+            }
+        System.out.println("Dela Vina");
+        
         }
         
         //DO WHILE LOOP
-        
         int nicknameCount = 5;
          do {
             System.out.println("Pao");
