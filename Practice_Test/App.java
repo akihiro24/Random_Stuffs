@@ -52,9 +52,9 @@ public class App {
         String mobileNumber = scan.next();
 
         if (mobileNumber.length() == 11) {
-            System.out.println("valid");
+            System.out.println("Valid!");
         } else {
-            System.out.println("invalid");
+            System.out.println("Invalid!");
         }
 
         // 7. Create a condition to check if your bestfriend's first name is in
@@ -63,9 +63,9 @@ public class App {
         String bestfriend = scan.next();
 
         if (bestfriend == bestfriend.toUpperCase()) {
-            System.out.println("valid");
+            System.out.println("Valid!");
         } else {
-            System.out.println("invalid");
+            System.out.println("Invalid!");
         }
 
         // 8. Create a condition to check if the answer is correct
@@ -74,9 +74,9 @@ public class App {
         String capital = scan.next();
 
         if (capital.toLowerCase().equals("manila") || capital.toUpperCase().equals("MANILA")) {
-            System.out.println("valid");
+            System.out.println("Valid!");
         } else {
-            System.out.println("invalid");
+            System.out.println("Invalid!");
         }
 
          // 9. Create a condition to check if the answer belongs to one of the five human senses
