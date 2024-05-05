@@ -1,0 +1,27 @@
+body {
+    background-image: url(windowsxp.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.activity-box {
+    width: 700px;
+    height: 500px;
+    background-color: #f0f0f0;
+    background: linear-gradient(to bottom, rgb(0, 128, 255), transparent), rgb(11, 137, 0);
+    border: 20px rgb(0, 208, 255);
+    border-style: groove;
+    padding: 10px;
+    opacity: 0.8;
+    margin: auto;
+    margin-top: 450px;
+    box-shadow: 0 0 30px 20px rgba(0, 0, 0, 0.5);
+}
+
+.activity-box p {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 160px;
+}
